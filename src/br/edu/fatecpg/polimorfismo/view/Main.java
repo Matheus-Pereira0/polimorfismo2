@@ -25,6 +25,10 @@ public class Main {
 		pagamento1.processarPagamento();
 		pagamento2.processarPagamento();
 		
+		/*O polimorfismo por sobrescrita permite que uma referência do tipo base
+		 * aponte para objetos de subtipos e execute o comportamento específico de cada subtipo
+		 * em tempo de execução, não precisando alterar a classe base.*/
+		
 		System.out.println("============ 3° Atividade ============");
 		
 		Conversor conversor = new Conversor();
@@ -32,6 +36,9 @@ public class Main {
 		conversor.converter(1.0);
 		conversor.converter(12);
 		conversor.converter("alessandro");
+		
+		/*A sobrecarga de métodos permite que um mesmo nome represente operações diferentes, 
+		 * desde que as assinaturas sejam distintas.*/
 		
 	}
 }
